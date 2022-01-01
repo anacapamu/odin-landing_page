@@ -5,70 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Mango Island Aquarium</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="header">
         <div class="nav">
-            <div class="logo">Header Logo</div>
+            <div class="logo">Mango Island Aquarium</div>
             <div class="links">
                 <ul>
-                    <li><a href="google.com">header link one</a></li>
-                    <li><a href="google.com">header link two</a></li>
-                    <li><a href="google.com">header link three</a></li>
+                    <li><a href="#resident_intro">meet residents</a></li>
+                    <li><a href="#testimonial">testimonial</a></li>
+                    <li><a href="#action">donate</a></li>
                 </ul>
             </div>
         </div>
         <div class="intro">
             <div class="intro_text">
-                <div class="name">This website is awesome</div>
-                <div class="subtext">This website has some subtext that goes here under the main title.
-                    It's a smaller font and the color is lower contrast</div>
-                <button>Sign up</button>
+                <div class="intro_name">Explore, Engage, Experience!</div>
+                <div class="intro_subtext">Discover the beauty and diversity of ocean life at Mango Island Aquarium.</div>
+                <button class="visit_button">Visit today</button>
             </div>
-            <img class="intro_img" src="img/aquarium.jpg" alt="whale shark and other fish">
+            <img class="intro_img" src="img/aquarium.gif" alt="whale sharks and other fish">
         </div>
     </div>
+    <div class="body">
+        <div id="resident_intro">
+            <div class="resident_title">Meet some of our residents!</div>
+            <div class="residents">
+                <div class="resident">
+                    <img class="resident_img" src="img\clownfish.jpg" alt="clownfish">
+                    <div class="resident_description">Leona the Clownfish</div>
+                </div>
+                <div class="resident">
+                    <img class="resident_img" src="img\jellyfish.jpg" alt="jellyfish">
+                    <div class="resident_description">Romeo the Jellyfish</div>
+                </div>
+                <div class="resident">
+                    <img class="resident_img" src="img\otter.jpg" alt="otter">
+                    <div class="resident_description">Pascal the Otter</div>
+                </div>
+                <div class="resident">
+                    <img class="resident_img" src="img\sea turtle.jpg" alt="sea turtle">
+                    <div class="resident_description">Squirt the Sea Turtle</div>
+                </div>
+            </div>
+        </div>
 
-    <div class="content">
-        <div class="description">Some random information.</div>
-        <div class="img_group">
-            <img class="content_img" src="img\clownfish.jpg" alt="clownfish">
-            <div class="caption">this is some subtext under an illustration or image</div>
+        <div id="testimonial">
+            <div class="quote">"If there is magic on this planet, it’s contained in water."</div>
+            <div class="reference">- Lorene Eisley</div>
+            <p>
+            <div class="quote">"I’d like to be under the sea in an octopus’s garden in the shade."</div>
+            <div class="reference">- The Beatles</div>
+            </p>
         </div>
-        <div class="img_group">
-            <img class="content_img" src="img\jellyfish.jpg" alt="jellyfish">
-            <div class="caption">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="img_group">
-            <img class="content_img" src="img\otter.jpg" alt="otter">
-            <div class="caption">this is some subtext under an illustration or image</div>
-        </div>
-        <div class="img_group">
-            <img class="content_img" src="img\sea turtle.jpg" alt="sea turtle">
-            <div class="caption">this is some subtext under an illustration or image</div>
-        </div>
-    </div>
 
-    <div class="testimonial">
-        <div class="quote">This is an inspiring quote, or a testimonial from a customer.
-            Maybe it's just filling up space, or maybe people will actually read it.
-            Who knows? All I know is that it looks nice.</div>
-        <div class="reference">-Thor, God of Thunder</div>
-    </div>
-
-    <div class="action">
-        <div class="action_text">
-            <div>Call to action! It's time!</div>
-            <div>Sign up for our product by clicking that button right over there!</div>
+        <div id="action">
+            <div class="action_text">
+                <div class="action_call">Support the aquarium!</div>
+                <div class="action-description">Take your passion for the ocean and environmental conservation
+                    to the next level and donate to Mango Island Aquarium.</div>
+            </div>
+            <button class="donate_button">Donate now</button>
         </div>
-        <button>Sign up</button>
     </div>
 
     <div class="footer">
-        <div>Copyright © The Odin Project 2021</div>
+        <div>Copyright © Anacapamu 2021</div>
     </div>
 
 </body>

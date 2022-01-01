@@ -9,7 +9,7 @@ After successfully recreating the layout, I will attempt to substitute my own co
 
 ## attributions
 
-Aquarium by Pengxiao Xu on Unsplash
+Aquarium gif from yinyangandyoung.tumblr.com
 Otter by mana5280 on Unsplash
 Sea turtle by Wexor Tmg on Unsplash
 Jellyfish by Ashleigh Robertson on Unsplash
