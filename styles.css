@@ -45,6 +45,7 @@ a {
 
 .intro_img {
     margin-left: auto;
+    width: 500px;
 }
 
 .name {
@@ -77,6 +78,8 @@ button {
     display: flex;
     justify-content: center;
     column-gap: 52px;
+    width: 200px;
+    border-radius: 25px;
 }
 
 .img_group {
