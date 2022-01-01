@@ -122,20 +122,23 @@ button {
     display: flex;
     flex-direction: column;
     padding: 100px 400px;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
-    font-style: italic;
     font-weight: lighter;
+    font-style: italic;
+    width: 475px;
 }
 
 .reference {
     color: #1F2937;
     font-weight: bold;
-    margin-left: auto;
-    padding-right: 90px;
+    width: 450px;
+    text-align: right;
 }
 
 #action {
@@ -150,7 +153,7 @@ button {
 .action_text {
     margin-right: auto;
     color: #F9FAF8;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .action_call {
