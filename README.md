@@ -1,11 +1,16 @@
 # Odin Landing Page
 
-The goal of this project is to create a landing page of a website in order to review concepts from the foundations of HTML, CSS, and flexbox sections of The Odin Project.
+## Description
+Static landing page for a fictional aquarium.
 
-I will first attempt to recreate the example (linked below for reference) provided with the exact same colors and fonts.
-https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
+## Context
+The goal of this project is to create a landing page of a website in order to review concepts from the foundations of HTML, CSS, and flexbox lessons. The design is based on the wireframe provided in the [project requirement](https://www.theodinproject.com/lessons/foundations-landing-page).
 
-After successfully recreating the layout, I will attempt to substitute my own content into the design.
+
+## Project Status
+This project will no longer be updated after **March 18, 2023**.
+
+Can this project be improved? Definitely. Is this landing page responsive? No. But this is my second ever coding project and the first one I was really proud of, so it holds a special place in my heart.
 
 ## Attributions
 
